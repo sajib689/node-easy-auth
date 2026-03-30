@@ -1,0 +1,65 @@
+{
+  "name": "node-easy-auth",
+  "version": "1.0.0",
+  "description": "A lightweight, Passport.js-inspired authentication library for Express.js. Strategy-based auth with Local, JWT, and Google OAuth built-in.",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "index.js",
+    "utils.js",
+    "strategies/",
+    "types/",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node test.js",
+    "example": "node example.js"
+  },
+  "keywords": [
+    "auth",
+    "authentication",
+    "express",
+    "passport",
+    "jwt",
+    "oauth",
+    "google-oauth",
+    "login",
+    "session",
+    "middleware",
+    "bcrypt",
+    "token",
+    "authorization",
+    "role-based-access",
+    "rbac",
+    "node-auth",
+    "express-auth"
+  ],
+  "author": "sajib689",
+  "license": "MIT",
+  "homepage": "https://github.com/sajib689/node-easy-auth#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajib689/node-easy-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sajib689/node-easy-auth/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "peerDependencies": {
+    "express": "^4.18.0 || ^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "express": {
+      "optional": false
+    }
+  }
+}
